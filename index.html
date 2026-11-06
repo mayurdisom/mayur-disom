@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="MAYUR DISOM - The Heart of Santali Music. Explore Santali songs, lofi, romantic music, traditional songs and Shorts.">
+
+    <meta name="theme-color" content="#100d0a">
+
+    <title>MAYUR DISOM | The Heart of Santali Music</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="app.js" defer></script>
+</head>
+
+<body class="bg-stone-950 text-stone-100 antialiased">
+
+    <!-- NAVBAR -->
+    <header class="site-header sticky top-0 z-50">
+
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+
+            <a href="#home" class="brand flex items-center gap-3">
+
+                <span class="brand-mark">MD</span>
+
+                <span>
+                    <span class="block font-display text-lg font-bold tracking-wider">
+                        MAYUR DISOM
+                    </span>
+
+                    <span class="block text-[10px] uppercase tracking-widest text-amber-300">
+                        The Heart of Santali Music
+                    </span>
+                </span>
+
+            </a>
+
+            <button id="menu-toggle"
+                    class="menu-toggle rounded-lg border border-white/15 p-2 md:hidden"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+
+                <svg viewBox="0 0 24 24"
+                     class="h-6 w-6"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.8">
+
+                    <path d="M4 7h16M4 12h16M4 17h16"/>
+
+                </svg>
+
+            </button>
+
+            <div id="nav-links" class="nav-links hidden items-center gap-8 md:flex">
+
+                <a href="#home">Home</a>
+                <a href="#music">Music</a>
+                <a href="#shorts">Shorts</a>
+                <a href="#about">About</a>
+                <a href="#connect" class="nav-cta">Follow Us ↗</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section relative overflow-hidden">
+
+            <div class="hero-pattern"></div>
+
+            <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 py-24 md:grid-cols-2 md:py-32 lg:px-8">
+
+                <div class="relative z-10">
+
+                    <p class="eyebrow">
+                        <span></span>
+                        MAYURBHANJ • ODISHA
+                    </p>
+
+                    <h1 class="hero-title mt-6 text-5xl font-bold leading-tight sm:text-6xl lg:text-7xl">
+
+                        Feel the Rhythm
+
+                        <br>
+
+                        <span class="gold-text">
+                            of Santali Music.
+                        </span>
+
+                    </h1>
+
+                    <p class="mt-6 max-w-xl text-base leading-8 text-stone-300 sm:text-lg">
+
+                        From heartfelt romantic melodies to traditional rhythms and soulful lofi edits — celebrate the sound and spirit of Santali music with MAYUR DISOM.
+
+                    </p>
+
+                    <div class="mt-9 flex flex-wrap gap-3">
+
+                        <a id="hero-youtube"
+                           href="#"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="button button-gold">
+
+                            ▶ Explore YouTube
+
+                        </a>
+
+                        <a id="hero-instagram"
+                           href="#"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="button button-outline">
+
+                            ◎ Instagram
+
+                        </a>
+
+                    </div>
+
+                    <div class="mt-12 flex flex-wrap gap-6 text-xs font-semibold uppercase tracking-widest text-stone-400">
+
+                        <span>♪ Santali Songs</span>
+                        <span>♫ Lofi Vibes</span>
+                        <span>✦ Traditional Roots</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BRAND LOGO DESIGN -->
+                <div class="hero-art relative mx-auto w-full max-w-lg">
+
+                    <div class="art-ring"></div>
+
+                    <div class="art-disc">
+
+                        <div class="disc-center">
+
+                            <span class="disc-monogram">MD</span>
+
+                            <span class="mt-3 text-xs font-bold tracking-widest">
+                                MAYUR DISOM
+                            </span>
+
+                            <span class="mt-2 text-[9px] uppercase tracking-widest text-amber-200">
+                                Santali Music • Mayurbhanj
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-note note-one">♪</div>
+                    <div class="floating-note note-two">♫</div>
+
+                    <div class="art-caption">
+                        ROOTED IN CULTURE. CONNECTED THROUGH MUSIC.
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-line"></div>
+
+        </section>
+
+
+        <!-- MUSIC CATEGORIES -->
+        <section class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">TUNE INTO YOUR MOOD</p>
+
+                <h2 class="section-title">
+                    Explore our <span class="gold-text">sound.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+                <a href="#music" class="genre-card">
+
+                    <span>♡</span>
+
+                    <h3>Love & Romantic</h3>
+
+                    <p>Melodies that speak to the heart.</p>
+
+                </a>
+
+
+                <a href="#music" class="genre-card">
+
+                    <span>♫</span>
+
+                    <h3>Santali Lofi</h3>
+
+                    <p>Slow down and feel every beat.</p>
+
+                </a>
+
+
+                <a href="#music" class="genre-card">
+
+                    <span>✺</span>
+
+                    <h3>Traditional</h3>
+
+                    <p>Celebrating our musical roots.</p>
+
+                </a>
+
+
+                <a href="#music" class="genre-card">
+
+                    <span>⚡</span>
+
+                    <h3>Remix & DJ</h3>
+
+                    <p>Fresh energy, familiar rhythms.</p>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- MUSIC VIDEOS -->
+        <section id="music" class="music-section scroll-mt-24 py-20">
+
+            <div class="mx-auto max-w-7xl px-5 lg:px-8">
+
+                <div class="flex flex-wrap items-end justify-between gap-5">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">LISTEN • WATCH • FEEL</p>
+
+                        <h2 class="section-title">
+                            Featured <span class="gold-text">music.</span>
+                        </h2>
+
+                        <p class="mt-3 text-sm leading-7 text-stone-400">
+                            Explore Santali songs, romantic music, lofi and traditional releases.
+                        </p>
+
+                    </div>
+
+                    <a id="all-videos-link"
+                       href="#"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text-sm font-semibold text-amber-300">
+
+                        View YouTube Channel ↗
+
+                    </a>
+
+                </div>
+
+
+                <!-- JavaScript loads video cards here -->
+                <div id="music-grid"
+                     class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- YOUTUBE SHORTS -->
+        <section id="shorts" class="mx-auto max-w-7xl scroll-mt-24 px-5 py-20 lg:px-8">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">QUICK DOSE OF MUSIC</p>
+
+                <h2 class="section-title">
+                    Santali <span class="gold-text">Shorts.</span>
+                </h2>
+
+                <p class="mt-3 text-sm leading-7 text-stone-400">
+                    Short clips, song moments and Santali music status videos.
+                </p>
+
+            </div>
+
+
+            <!-- JavaScript loads Shorts here -->
+            <div id="shorts-grid"
+                 class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section scroll-mt-24 py-20">
+
+            <div class="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-2 md:items-center lg:px-8">
+
+                <div>
+
+                    <p class="eyebrow">OUR STORY</p>
+
+                    <h2 class="section-title mt-4">
+
+                        More than music.
+
+                        <br>
+
+                        <span class="gold-text">
+                            It's our identity.
+                        </span>
+
+                    </h2>
+
+                    <p class="mt-6 text-sm leading-8 text-stone-300">
+
+                        MAYUR DISOM is a space for Santali music, entertainment and cultural expression inspired by the beautiful land of Mayurbhanj, Odisha.
+
+                    </p>
+
+                    <p class="mt-4 text-sm leading-8 text-stone-300">
+
+                        We bring together new songs, romantic melodies, lofi vibes, traditional sounds, remixes and music Shorts.
+
+                    </p>
+
+                    <p class="mt-6 font-display text-2xl italic text-amber-300">
+                        Johar! ✦
+                    </p>
+
+                </div>
+
+
+                <div class="about-panel">
+
+                    <div class="about-symbol">✺</div>
+
+                    <p class="font-display text-3xl font-bold tracking-wider">
+                        MAYUR DISOM
+                    </p>
+
+                    <p class="mt-3 text-xs uppercase tracking-widest text-amber-200">
+                        The Heart of Santali Music
+                    </p>
+
+                    <div class="sound-bars mt-9">
+
+                        <i></i><i></i><i></i><i></i><i></i>
+                        <i></i><i></i><i></i><i></i><i></i>
+
+                    </div>
+
+                    <p class="mt-7 text-xs tracking-widest text-stone-400">
+                        MAYURBHANJ • ODISHA • INDIA
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOCIAL MEDIA -->
+        <section id="connect" class="connect-section scroll-mt-24 px-5 py-20 text-center lg:px-8">
+
+            <p class="eyebrow justify-center">
+                STAY CONNECTED
+            </p>
+
+            <h2 class="section-title mt-4">
+
+                Join the <span class="gold-text">MAYUR DISOM</span> family.
+
+            </h2>
+
+            <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-stone-400">
+
+                Follow our channels for new Santali songs, lofi edits, music videos and Shorts.
+
+            </p>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+
+                <a id="connect-youtube"
+                   href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-gold">
+
+                    ▶ YouTube
+
+                </a>
+
+                <a id="connect-instagram"
+                   href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-outline">
+
+                    ◎ Instagram
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 bg-black/30">
+
+        <div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-center text-xs text-stone-500 md:flex-row md:justify-between lg:px-8">
+
+            <p>
+                © <span id="current-year"></span> MAYUR DISOM. All rights reserved.
+            </p>
+
+            <p>
+                Made with ♪ for Santali music and culture.
+            </p>
+
+        </div>
+
+        <p class="mx-auto max-w-7xl px-5 pb-7 text-center text-[11px] leading-6 text-stone-600">
+
+            Song audio, compositions and original video rights belong to their respective owners. This website does not claim ownership of third-party content.
+
+        </p>
+
+    </footer>
+
+</body>
+</html>
