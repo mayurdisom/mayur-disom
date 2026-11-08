@@ -20,9 +20,9 @@ AbCdEf12345
 
 const SITE_CONFIG = {
 
-    youtubeUrl: "https://www.youtube.com/",
+    youtubeUrl: "https://www.youtube.com/@mayurdisom",
 
-    instagramUrl: "https://www.instagram.com/"
+    instagramUrl: "https://www.instagram.com/mayur_disom_002/"
 
 };
 
